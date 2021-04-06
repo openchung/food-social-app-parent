@@ -1,10 +1,10 @@
 server:
-  port: 8081
+  port: 8082 # 端口
 
 spring:
   application:
-    name: cs-diners
-  # 資料庫
+    name: cs-oauth2-server # 應用名
+  # 數據庫
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
@@ -15,25 +15,29 @@ spring:
     port: 6379
     host: 192.168.5.139
     timeout: 3000
+    database: 1
     password: 123456
   # swagger
   swagger:
-    base-package: com.dc.diners
+    base-package: com.dc.oauth2
     title: 美食社交食客API規格文件
 
-# Oauth2 客戶端信息
-oauth2:
-  client:
-    client-id: appId
-    secret: 123456
-    grant_type: password
-    scope: api
-
-# oauth2 服務地址
-service:
-  name:
-    cs-oauth-server: http://cs-oauth2-server/
-    cs-points-server: http://cs-points/
+# Oauth2
+client:
+  oauth2:
+    client-id: appId # 客戶端標識 ID
+    secret: 123456 # 客戶端安全碼
+    # 授權類型
+    grant_types:
+      - password
+      - refresh_token
+    # token 有效時間，單位秒
+    token-validity-time: 3600
+    refresh-token-validity-time: 3600
+    # 客戶端訪問範圍
+    scopes:
+      - api
+      - all
 
 # 配置 Eureka Server 注冊中心
 eureka:
@@ -49,7 +53,9 @@ mybatis:
   configuration:
     map-underscore-to-camel-case: true # 開啟駝峰映射
 
-logging:
-  pattern:
-    console: '%d{2100-01-01 13:14:00.666} [%thread] %-5level %logger{50} - %msg%n'
-
+# 指標監控健康檢查
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*" # 暴露的端點

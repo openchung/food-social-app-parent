@@ -5,6 +5,9 @@ spring:
   application:
     name: cs-gateway
   cloud:
+    config:
+      discovery:
+        enabled: false
     gateway:
       discovery:
         locator:
@@ -14,7 +17,63 @@ spring:
         - id: cs-diners
           uri: lb://cs-diners
           predicates:
-            - Path=/hello/**
+            - Path=/diners/**
+          filters:
+            - StripPrefix=1
+
+        - id: cs-oauth2-server
+          uri: lb://cs-oauth2-server
+          predicates:
+            - Path=/auth/**
+          filters:
+            - StripPrefix=1
+
+        - id: cs-seckill
+          uri: lb://cs-seckill
+          predicates:
+            - Path=/seckill/**
+          filters:
+            - StripPrefix=1
+
+        - id: cs-follow
+          uri: lb://cs-follow
+          predicates:
+            - Path=/follow/**
+          filters:
+            - StripPrefix=1
+
+        - id: cs-feeds
+          uri: lb://cs-feeds
+          predicates:
+            - Path=/feeds/**
+          filters:
+            - StripPrefix=1
+
+        - id: cs-points
+          uri: lb://cs-points
+          predicates:
+            - Path=/points/**
+          filters:
+            - StripPrefix=1
+
+        - id: cs-restaurants
+          uri: lb://cs-restaurants
+          predicates:
+            - Path=/restaurants/**
+          filters:
+            - StripPrefix=1
+
+secure:
+  ignore:
+    urls: # 配置白名單路徑
+      - /actuator/**
+      - /auth/oauth/**
+      - /diners/signin
+      - /diners/send
+      - /diners/checkPhone
+      - /diners/register
+      - /seckill/add
+      - /restaurants/**
 
 # 配置 Eureka Server 注冊中心
 eureka:

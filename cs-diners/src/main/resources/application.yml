@@ -4,6 +4,36 @@ server:
 spring:
   application:
     name: cs-diners
+  # 資料庫
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: password
+    url: jdbc:mysql://192.168.5.135:30306/dinerDB?serverTimezone=Asia/Taipei&characterEncoding=utf8&useUnicode=true&useSSL=false
+  # Redis
+  redis:
+    port: 6379
+    host: 192.168.5.139
+    timeout: 3000
+    password: 123456
+  # swagger
+  swagger:
+    base-package: com.dc.diners
+    title: 美食社交食客API規格文件
+
+# Oauth2 客戶端信息
+oauth2:
+  client:
+    client-id: appId
+    secret: 123456
+    grant_type: password
+    scope: api
+
+# oauth2 服務地址
+service:
+  name:
+    cs-oauth-server: http://cs-oauth2-server/
+    cs-points-server: http://cs-points/
 
 # 配置 Eureka Server 注冊中心
 eureka:
@@ -13,3 +43,13 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8080/eureka/
+
+# Mybatis
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true # 開啟駝峰映射
+
+logging:
+  pattern:
+    console: '%d{2100-01-01 13:14:00.666} [%thread] %-5level %logger{50} - %msg%n'
+

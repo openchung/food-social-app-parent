@@ -1,7 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42d5bb23-7921-4d38-952f-a5c6e06f1321" name="Default Changelist" comment="" />
+    <list default="true" id="42d5bb23-7921-4d38-952f-a5c6e06f1321" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/commons.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/src/main/java/com/dc/commons/constant/ApiConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/src/main/java/com/dc/commons/exception/ParameterException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/src/main/java/com/dc/commons/model/base/BaseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/src/main/java/com/dc/commons/model/domain/ResultInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/src/main/java/com/dc/commons/model/domain/SignInIdentity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/src/main/java/com/dc/commons/model/pojo/Diners.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/src/main/java/com/dc/commons/model/vo/SignInDinerInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/src/main/java/com/dc/commons/utils/AssertUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commons/src/main/java/com/dc/commons/utils/ResultInfoUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cs-diners/src/main/java/com/dc/diners/config/OAuth2ClientConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cs-diners/src/main/java/com/dc/diners/config/RedisTemplateConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cs-diners/src/main/java/com/dc/diners/config/RestTemplateConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cs-diners/src/main/java/com/dc/diners/controller/DinersController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cs-diners/src/main/java/com/dc/diners/domain/OAuthDinerInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cs-diners/src/main/java/com/dc/diners/service/DinersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cs-diners/src/main/java/com/dc/diners/vo/LoginDinerInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cs-gateway/src/main/java/com/dc/gateway/component/HandleException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cs-gateway/src/main/java/com/dc/gateway/config/IgnoreUrlsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cs-gateway/src/main/java/com/dc/gateway/config/RestTemplateConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cs-gateway/src/main/java/com/dc/gateway/filter/AuthGlobalFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cs-oauth2-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cs-oauth2-server/src/main/java/com/dc/oauth2/server/Oauth2ServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cs-oauth2-server/src/main/java/com/dc/oauth2/server/config/AuthorizationServerConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cs-oauth2-server/src/main/java/com/dc/oauth2/server/config/ClientOAuth2DataConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cs-oauth2-server/src/main/java/com/dc/oauth2/server/config/MyAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cs-oauth2-server/src/main/java/com/dc/oauth2/server/config/ResourceServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cs-oauth2-server/src/main/java/com/dc/oauth2/server/config/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cs-oauth2-server/src/main/java/com/dc/oauth2/server/controller/OAuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cs-oauth2-server/src/main/java/com/dc/oauth2/server/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cs-oauth2-server/src/main/java/com/dc/oauth2/server/mapper/DinersMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cs-oauth2-server/src/main/java/com/dc/oauth2/server/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cs-oauth2-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/mysql.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cs-diners/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cs-diners/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cs-diners/src/main/java/com/dc/diners/DinersApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cs-diners/src/main/java/com/dc/diners/DinersApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cs-diners/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cs-diners/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cs-diners/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cs-diners/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cs-diners/target/classes/com/dc/diners/DinersApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/cs-diners/target/classes/com/dc/diners/DinersApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cs-diners/target/classes/com/dc/diners/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cs-diners/target/classes/com/dc/diners/controller/HelloController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cs-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cs-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cs-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cs-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cs-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cs-gateway/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,8 +72,27 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@192.168.5.135" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@192.168.5.135" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@192.168.5.135" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="dinerDB: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
     <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="food-social-app-parent" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -31,32 +101,51 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\Redis\food-social-app-parent\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1qdvnsNobis6dLLpcERJUttf0MV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/cs-diners/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2908046" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -64,7 +153,14 @@
       <recent name="D:\Redis\food-social-app-parent\cs-gateway\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.DinersApplication">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.GatewayApplication">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="food-social-app-parent" />
       <working_directory value="$PROJECT_DIR$" />
@@ -110,6 +206,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Oauth2ServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cs-oauth2-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dc.oauth2.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dc.oauth2.server.Oauth2ServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RegistryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cs-registry" />
       <extension name="coverage">
@@ -125,11 +234,34 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.RegistryApplication" />
+        <item itemvalue="Spring Boot.Oauth2ServerApplication" />
         <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="Spring Boot.DinersApplication" />
-        <item itemvalue="Spring Boot.RegistryApplication" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -141,12 +273,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1617422451715</updated>
-      <workItem from="1617422456301" duration="8333000" />
+      <workItem from="1617422456301" duration="32378000" />
+      <workItem from="1617634362665" duration="19869000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="75" key="#Inspections" timestamp="1617500363971">
@@ -161,45 +297,116 @@
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state x="361" y="75" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.832@0.0.1536.832" timestamp="1617500415867" />
+    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser" timestamp="1617550027995">
+      <screen x="0" y="0" width="1536" height="832" />
+    </state>
+    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser/0.0.1536.832@0.0.1536.832" timestamp="1617550027995" />
     <state x="556" y="275" width="423" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1617427418345">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
     <state x="556" y="275" width="423" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.832@0.0.1536.832" timestamp="1617427418345" />
-    <state width="746" height="231" key="GridCell.Tab.0.bottom" timestamp="1617428503410">
+    <state width="1293" height="285" key="GridCell.Tab.0.bottom" timestamp="1617718713511">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="264" key="GridCell.Tab.0.bottom/0.0.1536.832@0.0.1536.832" timestamp="1617666713371" />
+    <state width="1293" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1617718713511" />
+    <state width="1293" height="285" key="GridCell.Tab.0.center" timestamp="1617718713511">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="264" key="GridCell.Tab.0.center/0.0.1536.832@0.0.1536.832" timestamp="1617666713370" />
+    <state width="1293" height="285" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1617718713511" />
+    <state width="1293" height="285" key="GridCell.Tab.0.left" timestamp="1617718713511">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="264" key="GridCell.Tab.0.left/0.0.1536.832@0.0.1536.832" timestamp="1617666713370" />
+    <state width="1293" height="285" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1617718713511" />
+    <state width="1293" height="285" key="GridCell.Tab.0.right" timestamp="1617718713511">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="264" key="GridCell.Tab.0.right/0.0.1536.832@0.0.1536.832" timestamp="1617666713371" />
+    <state width="1293" height="285" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617718713511" />
+    <state width="1293" height="285" key="GridCell.Tab.1.bottom" timestamp="1617718713512">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="264" key="GridCell.Tab.1.bottom/0.0.1536.832@0.0.1536.832" timestamp="1617666713153" />
+    <state width="1293" height="285" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1617718713512" />
+    <state width="1293" height="285" key="GridCell.Tab.1.center" timestamp="1617718713512">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="264" key="GridCell.Tab.1.center/0.0.1536.832@0.0.1536.832" timestamp="1617666713153" />
+    <state width="1293" height="285" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1617718713512" />
+    <state width="1293" height="285" key="GridCell.Tab.1.left" timestamp="1617718713511">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="264" key="GridCell.Tab.1.left/0.0.1536.832@0.0.1536.832" timestamp="1617666713153" />
+    <state width="1293" height="285" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1617718713511" />
+    <state width="1293" height="285" key="GridCell.Tab.1.right" timestamp="1617718713512">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="264" key="GridCell.Tab.1.right/0.0.1536.832@0.0.1536.832" timestamp="1617666713153" />
+    <state width="1293" height="285" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617718713512" />
+    <state width="1877" height="267" key="GridCell.Tab.2.bottom" timestamp="1617714270890">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="264" key="GridCell.Tab.2.bottom/0.0.1536.832@0.0.1536.832" timestamp="1617666713154" />
+    <state width="1877" height="267" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1617714270890" />
+    <state width="1877" height="267" key="GridCell.Tab.2.center" timestamp="1617714270890">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="264" key="GridCell.Tab.2.center/0.0.1536.832@0.0.1536.832" timestamp="1617666713153" />
+    <state width="1877" height="267" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1617714270890" />
+    <state width="1877" height="267" key="GridCell.Tab.2.left" timestamp="1617714270890">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="264" key="GridCell.Tab.2.left/0.0.1536.832@0.0.1536.832" timestamp="1617666713153" />
+    <state width="1877" height="267" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1617714270890" />
+    <state width="1877" height="267" key="GridCell.Tab.2.right" timestamp="1617714270890">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="264" key="GridCell.Tab.2.right/0.0.1536.832@0.0.1536.832" timestamp="1617666713153" />
+    <state width="1877" height="267" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617714270890" />
+    <state x="338" y="76" key="SettingsEditor" timestamp="1617718369436">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="270" y="61" key="SettingsEditor/0.0.1536.832@0.0.1536.832" timestamp="1617514186184" />
+    <state x="338" y="76" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1617718369436" />
+    <state x="518" y="275" key="com.intellij.ide.util.TipDialog" timestamp="1617634367655">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="746" height="231" key="GridCell.Tab.0.bottom/0.0.1536.832@0.0.1536.832" timestamp="1617428503410" />
-    <state width="746" height="231" key="GridCell.Tab.0.center" timestamp="1617428503410">
+    <state x="518" y="275" key="com.intellij.ide.util.TipDialog/0.0.1536.832@0.0.1536.832" timestamp="1617634367655" />
+    <state x="647" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617606484292" />
+    <state x="453" y="149" width="629" height="534" key="find.popup" timestamp="1617664607856">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="746" height="231" key="GridCell.Tab.0.center/0.0.1536.832@0.0.1536.832" timestamp="1617428503410" />
-    <state width="746" height="231" key="GridCell.Tab.0.left" timestamp="1617428503410">
+    <state x="453" y="149" width="629" height="534" key="find.popup/0.0.1536.832@0.0.1536.832" timestamp="1617664607856" />
+    <state x="394" y="65" key="new project wizard" timestamp="1617503037044">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="746" height="231" key="GridCell.Tab.0.left/0.0.1536.832@0.0.1536.832" timestamp="1617428503410" />
-    <state width="746" height="231" key="GridCell.Tab.0.right" timestamp="1617428503410">
+    <state x="394" y="65" key="new project wizard/0.0.1536.832@0.0.1536.832" timestamp="1617503037044" />
+    <state x="426" y="192" width="672" height="677" key="run.anything.popup" timestamp="1617553849676">
       <screen x="0" y="0" width="1536" height="832" />
     </state>
-    <state width="746" height="231" key="GridCell.Tab.0.right/0.0.1536.832@0.0.1536.832" timestamp="1617428503410" />
-    <state width="746" height="231" key="GridCell.Tab.1.bottom" timestamp="1617428503411">
-      <screen x="0" y="0" width="1536" height="832" />
+    <state x="426" y="192" width="672" height="677" key="run.anything.popup/0.0.1536.832@0.0.1536.832" timestamp="1617553849676" />
+    <state x="539" y="191" width="840" height="848" key="search.everywhere.popup" timestamp="1617718126719">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="746" height="231" key="GridCell.Tab.1.bottom/0.0.1536.832@0.0.1536.832" timestamp="1617428503411" />
-    <state width="746" height="231" key="GridCell.Tab.1.center" timestamp="1617428503411">
-      <screen x="0" y="0" width="1536" height="832" />
-    </state>
-    <state width="746" height="231" key="GridCell.Tab.1.center/0.0.1536.832@0.0.1536.832" timestamp="1617428503411" />
-    <state width="746" height="231" key="GridCell.Tab.1.left" timestamp="1617428503410">
-      <screen x="0" y="0" width="1536" height="832" />
-    </state>
-    <state width="746" height="231" key="GridCell.Tab.1.left/0.0.1536.832@0.0.1536.832" timestamp="1617428503410" />
-    <state width="746" height="231" key="GridCell.Tab.1.right" timestamp="1617428503411">
-      <screen x="0" y="0" width="1536" height="832" />
-    </state>
-    <state width="746" height="231" key="GridCell.Tab.1.right/0.0.1536.832@0.0.1536.832" timestamp="1617428503411" />
-    <state x="197" y="111" key="new project wizard" timestamp="1617500164057">
-      <screen x="0" y="0" width="1536" height="832" />
-    </state>
-    <state x="197" y="111" key="new project wizard/0.0.1536.832@0.0.1536.832" timestamp="1617500164057" />
+    <state x="431" y="153" width="672" height="678" key="search.everywhere.popup/0.0.1536.832@0.0.1536.832" timestamp="1617584616636" />
+    <state x="539" y="191" width="840" height="848" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1617718126719" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cs-gateway/src/main/java/com/dc/gateway/filter/AuthGlobalFilter.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cs-gateway/src/main/java/com/dc/gateway/filter/AuthGlobalFilter.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

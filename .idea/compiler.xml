@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cs-registry" />
         <module name="cs-diners" />
+        <module name="commons" />
+        <module name="cs-oauth2-server" />
         <module name="cs-gateway" />
       </profile>
     </annotationProcessing>
