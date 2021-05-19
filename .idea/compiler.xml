@@ -6,11 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cs-registry" />
         <module name="cs-diners" />
         <module name="commons" />
         <module name="cs-oauth2-server" />
+        <module name="cs-feeds" />
+        <module name="cs-registry" />
+        <module name="cs-seckill" />
+        <module name="cs-points" />
         <module name="cs-gateway" />
+        <module name="cs-restaurants" />
+        <module name="cs-follow" />
       </profile>
     </annotationProcessing>
   </component>

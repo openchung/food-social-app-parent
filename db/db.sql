@@ -394,8 +394,8 @@ INSERT INTO `t_diners` VALUES (5, 'aaa', 'aaa', '12311112222', NULL, 'e10adc3949
 -- ----------------------------
 -- Table structure for t_feed
 -- ----------------------------
-DROP TABLE IF EXISTS `t_feed`;
-CREATE TABLE `t_feed`  (
+DROP TABLE IF EXISTS `t_feeds`;
+CREATE TABLE `t_feeds`  (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `content` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NULL DEFAULT NULL COMMENT '內容',
   `fk_diner_id` int(11) NULL DEFAULT NULL,
@@ -409,7 +409,7 @@ CREATE TABLE `t_feed`  (
 ) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
--- Records of t_feed
+-- Records of t_feeds
 -- ----------------------------
 
 -- ----------------------------

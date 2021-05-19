@@ -14,6 +14,11 @@
         <module>cs-diners</module>
         <module>commons</module>
         <module>cs-oauth2-server</module>
+        <module>cs-seckill</module>
+        <module>cs-follow</module>
+        <module>cs-feeds</module>
+        <module>cs-points</module>
+        <module>cs-restaurants</module>
     </modules>
 
     <!-- 可以集中定義依賴資源的版本信息 -->

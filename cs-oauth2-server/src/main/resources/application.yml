@@ -8,15 +8,43 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
-    password: password
-    url: jdbc:mysql://192.168.5.135:30306/dinerDB?serverTimezone=Asia/Taipei&characterEncoding=utf8&useUnicode=true&useSSL=false
+    password: root
+    url: jdbc:mysql://192.168.30.1:3306/dinerDB?serverTimezone=Asia/Taipei&characterEncoding=utf8&useUnicode=true&useSSL=false&allowPublicKeyRetrieval=true
   # Redis
+#  redis:
+    #port: 6379
+    #host: 192.168.5.139
+#    timeout: 3000
+#    database: 1
+#    password: 123456
+#    sentinel:
+#      master: mymaster
+#      nodes: 192.168.5.139:26379,192.168.5.144:26379,192.168.5.147:26379
   redis:
-    port: 6379
-    host: 192.168.5.139
-    timeout: 3000
-    database: 1
-    password: 123456
+    # 啟用哨兵模式以後無需直接連接 Redis，通過哨兵可以獲得主從信息
+    #port: 6379
+    #host: 192.168.5.139
+    timeout: 3000 # 連接超時時間
+    password: 123456 # Redis 服務器密碼
+    #database: 1
+    # lettuce 連接池
+    lettuce:
+      pool:
+        max-active: 8 # 最大連接數，默認 8
+        max-idle: 8 # 最大空閑連接，默認 8
+        min-idle: 0 # 最小空閑連接，默認 0
+        max-wait: 1000 # 最大連接阻塞等待時間，單位毫秒，默認 -1
+      # 哨兵
+      #sentinel:
+      # 主節點名稱
+      #master: mymaster
+      # 主從服務器地址
+      #nodes: 192.168.10.101:26379,192.168.10.102:26379,192.168.10.103:26379
+    # 集群
+    cluster:
+      nodes: 192.168.5.139:6371,192.168.5.139:6372,192.168.5.144:6373,192.168.5.144:6374,192.168.5.147:6375,192.168.5.147:6376
+      max-redirects: 5 # Redis 命令執行時最多轉发次數
+
   # swagger
   swagger:
     base-package: com.dc.oauth2
@@ -32,8 +60,8 @@ client:
       - password
       - refresh_token
     # token 有效時間，單位秒
-    token-validity-time: 3600
-    refresh-token-validity-time: 3600
+    token-validity-time: 2592000
+    refresh-token-validity-time: 2592000
     # 客戶端訪問範圍
     scopes:
       - api
